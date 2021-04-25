@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media all and (max-width: 414px) {
+            div#input_bg{
+                width:100%;
+            }
+            body{
+                background-color: skyblue;
+                text-align: center;
+            }
+            h2{
+                text-align: center;
+            }
+            button{
+                background-color: black;
+                color: white;
+                width: 50%;
+                height: 50px;
+                font-size: 1.5em;
+            }
+            p {
+                color: white;
+            }
+            #text{
+                float: left;
+                width: 20%;
+                height: 30px;
+            }
+            input{
+                float: right;
+                width: 70%;
+                height: 30px;
+            }
+        }
+        @media all and (min-width: 415px){
+            body{
+                background-color: skyblue;
+                text-align: center;
+            }
+            h2{
+                text-align: center;
+            }
+            div#input_bg{
+                width:50%;
+                text-align: left;
+                display: inline-block;
+            }
+            button{
+                background-color: black;
+                color: white;
+                width: 50%;
+                height: 50px;
+                font-size: 1.5em;
+            }
+            p {
+                color: white;
+            }
+            #text{
+                float: left;
+                width: 20%;
+                height: 30px;
+            }
+            input{
+                float: right;
+                width: 70%;
+                height: 30px;
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+        <div id ="login_form">
+            <h2>로그인창</h2>
+            <div id="input_bg"><p id="text">아이디</p><input /></div>
+            <div id="input_bg"><p id="text">비밀번호</p><input /></div>
+            <button>로그인</button>
+            <p>회원가입 하기</p>
+        </div>
+</body>
+</html>
